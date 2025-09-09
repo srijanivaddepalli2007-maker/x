@@ -1,0 +1,87 @@
+body{
+  background:url(https://static.vecteezy.com/system/resources/previews/010/355/861/non_2x/lavender-purple-liquid-watercolor-background-with-gold-stripes-pastel-marble-effect-with-golden-lines-drawn-with-brushes-design-template-for-invitation-menu-wedding-invitation-vector.jpg) no-repeat center center/cover;
+}
+/* login form */
+.form{
+   display: flex;
+   flex-direction: column;
+   height: 500px;
+   width: 400px;
+   border: 1px solid gray;
+   align-items: center;
+   margin: auto;
+   margin-top: 70px;
+   background-color: none;
+   box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+   backdrop-filter: blur(10px);
+   border-radius: 25px;
+}
+.form h1{
+   color: gray;
+   font-size: 40px;
+   border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+   margin: 50px;
+}
+.box{
+   padding: 12px;
+   margin: 20px;
+   width: 65%;
+   border: 1px solid gray;
+   outline: none;
+   border-radius: 20px;
+   background-color: none;
+   box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+   backdrop-filter: blur(10px);
+   color: gray;
+   font-size: 20px;
+}
+#submit{
+  padding: 10px 20px;
+  margin-top: 50px;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 1.0);
+  box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+  color: gray;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+#submit:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: gray;
+}
+::placeholder{
+  color: gray;
+  capacity: 0.7;
+}
+.title{
+  color: gray;
+  text-decoration: none;
+ 
+}
+
+
+.form1{
+   display: flex;
+   flex-direction: column;
+   height: 700px;
+   width: 600px;
+   border: 1px solid gray;
+   align-items: center;
+   margin: auto;
+   margin-top: 70px;
+   background-color: none;
+   box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+   backdrop-filter: blur(10px);
+   border-radius: 25px;
+}
+.form1 h1{
+   color: gray;
+   font-size: 40px;
+   border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+   margin: 50px;
+}

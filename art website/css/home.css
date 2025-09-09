@@ -1,0 +1,73 @@
+body{
+    background: https://img.freepik.com/premium-photo/watercolor-flat-element-abstract-background_776894-182280.jpg
+
+}
+ul{
+  list-style: none;
+}
+a{
+ text-decoration: none;
+}
+button{
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+header .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav-logo{
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+.navbar .nav-menu{
+   display: flex;
+   gap: 40px;
+   color: black;
+   font-size: 20px;
+}
+.navbar .nav-menu .nav-link{
+   background: #B099C8;
+   border-radius: 30px;
+   width: 6%;
+}
+.nav-item{
+   margin-bottom: 5%;
+   font-size: 24px;
+}
+.navbar .nav-menu .nav-link:hover{
+   cursor: pointer;
+   color: white;
+}
+.style{
+  background: #B099C8;
+  height: 100px;
+  margin-top: 1%;
+  color: darkblue;
+}
+.title{
+font-size: 30px;
+}
+.art{
+  margin-right: 50px;
+  margin-top: 20px;
+  float: right;
+}
+.title1{
+  font-style: arial;
+  font-size: 20px;
+}
+.gap{
+  margin-top: 20px;
+}
+.edit{
+  margin-left: 10%;
+}
